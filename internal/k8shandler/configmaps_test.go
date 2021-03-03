@@ -160,19 +160,19 @@ opendistro_security:
     transport:
       enabled: true
       enforce_hostname_verification: false
-      keystore_type: JKS
+      keystore_type: PKCS12
       keystore_filepath: /etc/elasticsearch/secret/searchguard.key
       keystore_password: kspass
-      truststore_type: JKS
+      truststore_type: PKCS12
       truststore_filepath: /etc/elasticsearch/secret/searchguard.truststore
       truststore_password: tspass
     http:
       enabled: true
-      keystore_type: JKS
+      keystore_type: PKCS12
       keystore_filepath: /etc/elasticsearch/secret/key
       keystore_password: kspass
       clientauth_mode: OPTIONAL
-      truststore_type: JKS
+      truststore_type: PKCS12
       truststore_filepath: /etc/elasticsearch/secret/truststore
       truststore_password: tspass`)
 		})

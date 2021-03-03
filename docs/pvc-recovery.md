@@ -79,10 +79,10 @@ To begin, this guide assumes you have a currently running cluster in the `opensh
         truststore:
           path: /etc/elasticsearch/secret/truststore
           password: tspass
-          type: jks
+          type: pkcs12
         keystore:
           path: /etc/elasticsearch/secret/key
-          type: jks
+          type: pkcs12
           password: kspass
     ```
     - e.g.
@@ -103,10 +103,10 @@ To begin, this guide assumes you have a currently running cluster in the `opensh
         truststore:
           path: /etc/elasticsearch/secret/truststore
           password: tspass
-          type: jks
+          type: pkcs12
         keystore:
           path: /etc/elasticsearch/secret/key
-          type: jks
+          type: pkcs12
           password: kspass
     ```
 
